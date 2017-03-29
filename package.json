@@ -1,0 +1,33 @@
+{
+  "name": "post-project-analysis",
+  "version": "1.0.0",
+  "description": "Post project analysis tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programbo/meerkats-ppa.meerkats.cloud.git"
+  },
+  "author": "John Lombardo <john@meerkats.com.au>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programbo/meerkats-ppa.meerkats.cloud/issues"
+  },
+  "homepage": "https://github.com/programbo/meerkats-ppa.meerkats.cloud#readme",
+  "dependencies": {
+    "next": "^2.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
+}
